@@ -14,10 +14,7 @@ setup(
     url = 'https://github.com/sfable/webhook-handler',
     download_url = 'https://github.com/sfable/webhook-handler/archive/master.zip',
     py_modules = ['webhook_handler'],
-    install_requires = [
-        'sh',
-        'Twisted'
-    ],
+    install_requires = ['sh'],
     zip_safe = True,
     entry_points = {
         'console_scripts': ['webhook-handler=webhook_handler:main']
